@@ -1,0 +1,65 @@
+/* wrapper div styles */
+.my-wrapper{
+    background-color: #F5F9E9;
+    font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    width: 100%;
+    height: 1000px;
+}
+
+/* navigation bar (menubar) styles */
+.my-navbar {
+    background-color: #336699;
+    box-shadow: .1px .1px 5px #999;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.my-logo-link {
+    margin-left: 15px;
+}
+.my-navbar-links {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20%;
+}
+.my-nav-link {
+    color: #F5F9E9;
+}
+.my-nav-link:hover {
+    color: #fff;
+}
+.my-nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: width .3s;
+}
+.my-nav-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.my-content {
+    margin-top: 60px;
+}
+.my-header-article {
+    position: absolute;
+    width: 60%;
+    padding: 100px 50px;
+}
+.my-header-article h1 {
+    color: #336699;
+}
+.my-header-article p {
+    color: #080708;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.my-header-img-col {
+    padding: 0;
+}
+.my-header-image-div {
+    background: url("../images/header-color.png") right no-repeat border-box;
+    padding: 10px 0;
+}
