@@ -1,4 +1,4 @@
-/* wrapper div styles */
+/* my-wrapper div styles */
 .my-wrapper{
     background-color: #F5F9E9;
     font-family: "proxima-nova", "Helvetica Neue", Arial, sans-serif;
@@ -27,6 +27,7 @@
 .my-nav-link:hover {
     color: #fff;
 }
+/* these below styles create menubar links underline animation */
 .my-nav-link::after {
     content: '';
     display: block;
@@ -40,9 +41,11 @@
     transition: width .3s;
 }
 
+/* body content part styles starts from here */
 .my-content {
     margin-top: 60px;
 }
+/* these below are styles for text under menubar infront of web design image */
 .my-header-article {
     position: absolute;
     width: 60%;
@@ -56,6 +59,7 @@
     font-size: 18px;
     margin-top: 20px;
 }
+/* these below styles are for web design image */
 .my-header-img-col {
     padding: 0;
 }
