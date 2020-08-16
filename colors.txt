@@ -1,5 +1,0 @@
-white: #F5F9E9
-black: #080708
-primary: #336699
-primary lighter: #578FC7
-primary lightest: #A3C2E0
