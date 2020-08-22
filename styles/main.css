@@ -1,3 +1,8 @@
+
+body {
+    direction: rtl;
+    text-align: right;
+}
 /* my-wrapper div styles */
 .my-wrapper{
     background-color: #F5F9E9;
@@ -5,7 +10,6 @@
     width: 100%;
     height: 1000px;
 }
-
 /* navigation bar (menubar) styles */
 .my-navbar {
     background-color: #336699;
@@ -14,12 +18,12 @@
     padding-bottom: 0;
 }
 .my-logo-link {
-    margin-left: 15px;
+    margin-right: 15px;
 }
 .my-navbar-links {
     font-size: 18px;
     font-weight: 400;
-    margin-left: 20%;
+    margin-right: 20%;
 }
 .my-nav-link {
     color: #F5F9E9;
@@ -64,6 +68,106 @@
     padding: 0;
 }
 .my-header-image-div {
-    background: url("../images/header-color.png") right no-repeat border-box;
+    background: url("../images/header-color.png") left no-repeat border-box;
     padding: 10px 0;
+    width: 95%;
+    position: relative;
+    left: -45px;
+}
+
+.my-carousel-control:hover {
+    background-color: rgba(70, 70, 70, 0.15);
+}
+
+#multi-item-carousel {
+    position: relative;
+    bottom: -60px;
+}
+
+.my-card {
+    position: relative;
+    top: 0;
+    min-height: 557.33px;
+    box-shadow: 0 10px 15px 0 rgba(42, 121, 124, 0.1);
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, top 0.2s ease-in-out;
+    -webkit-transition: box-shadow 0.3s ease-in-out, top 0.2s ease-in-out;
+    -o-transition: box-shadow 0.3s ease-in-out, top 0.2s ease-in-out;
+}
+
+.my-card:hover {
+    top: -10px;
+    box-shadow: 0 15px 20px 0 rgba(42, 121, 124, 0.1);
+}
+
+.my-container-style-1 {
+    margin-top: 54px;
+    padding: 54px 100px;
+    background-color: #F5F9E9;
+    height: 730px
+}
+
+.my-card-text-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.my-container {
+    margin-top: 100px;
+}
+
+.my-article-row {
+    position: relative;
+    top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px #5f5f5f;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: top 0.2s ease-in-out;
+}
+
+.my-article-row:hover {
+    top: -2px;
+}
+
+.my-article-row .col-2 {
+    padding-right: 0;
+}
+
+.my-article-img {
+    width: 180px;
+    height: 100px;
+}
+
+.my-article-title {
+    font-size: 16px;
+    color: #5f5f5f;
+}
+
+.my-article-description {
+    font-size: 14px;
+    color: #5f5f5f;
+}
+
+.my-article-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.my-footer {
+    background-color: #336699;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.my-footer a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.my-footer hr {
+    border-color: #fff;
 }

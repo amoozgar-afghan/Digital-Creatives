@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1.0, initial-scale=1.0">
 
+    <!-- fontawesome css file link -->
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
     <!-- bootstrap css file link -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 
     <!-- css file link where we add our styles. -->
     <link rel="stylesheet" href="styles/main.css">
@@ -32,26 +34,26 @@
               <ul class="navbar-nav my-navbar-links">
                 <li class="nav-item active">
                   <!-- link to index.html page -->
-                  <a class="nav-link my-nav-link" href="index.html">Home</a>
+                  <a class="nav-link my-nav-link" href="index.html">صفحه اصلی</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="#">Services</a>
+                  <a class="nav-link my-nav-link" href="#">خدمات</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="#">Blogs</a>
+                  <a class="nav-link my-nav-link" href="#">بلاگ ها</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="#">FAQs</a>
+                  <a class="nav-link my-nav-link" href="#">سوالات</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="#">About</a>
+                  <a class="nav-link my-nav-link" href="#">درباره ما</a>
                 </li>
               </ul>
             </div>
         </nav>
 
         <!-- the content of the page which starts from under the menubar -->
-        <section class="my-content">
+        <section class="my-content  bg-white">
           <div class="container-fluid">
             <div class="row my-first-row">
               <div class="col-lg-4"></div>
@@ -59,26 +61,296 @@
                 
                 <div class="my-header-image-div">
                   <!-- the web design which contains tablet, computer, smart phone and other screens. -->
-                  <img src="images/Web-Design-header.png" class="img-fluid" alt="">
+                  <img src="images/Web-Design-header-flipped.png" class="img-fluid" alt="">
                 </div>
               </div>
               <!-- The text under the menubar infront of web design image -->
               <article class="my-header-article">
                 <h1>
-                  YOUR DIGITAL SALES AND MARKETING CAN THRIVE IN THESE UNCERTAIN TIMES
+                  فروش های دیجیتالی و بازاریابی شما می تواند در این زمانهای غیرقابل اطمینان رونق یابند
                 </h1>
                 <p>
-                  Used by thousands of businesses, the recession-tested methodology They Ask, You Answer empowers your sales and marketing teams to earn the trust of the customers your competition is neglecting. Get in front of buyers where they are and enable your sales team to close more deals faster in a video-first, virtual selling world.
+                  با استفاده از هزاران مشاغل ، روش آزمایش رکود اقتصادی که از آنها می پرسند ، شما با جواب می توانید تیمهای فروش و بازاریابی خود را به دست آورید تا اعتماد مشتریانی را بدست آورید که از رقابت شما غافل هستند. در مقابل خریداران جایی که هستند قرار بگیرید و تیم فروش خود را فعال کنید تا در دنیای فروش ویدیویی اول ، مجازی ، سریعتر معاملات بیشتری را ببندند.
                 </p>
               </article>
             </div>
+            
+          </div>  
+          <div class="container">
+            <div class="row">
+              <div class="col-12 pt-1">
+                <h3>مشتریان ما</h3>
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+                <img src="images/alokozay-logo.jpg" class="img-fluid" alt="Alokozay Logo">
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+                <img src="images/Afghanistan_Bank_Logo.png" class="img-fluid" alt="Afghanistan bank Logo">
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+                <img src="images/un-logo.jpg" class="img-fluid" alt="UN Logo">
+              </div>
+              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+                <img src="images/wfp-logo.png" class="img-fluid" alt="WFP Logo">
+              </div>
+            </div>
           </div>
-          
-          
+          <div class="container-fluid my-container-style-1">            
+            <div class="row pt-5">
+              <div class="col-12">
+                <h1 class="text-center">با تجارت های مانند شما که نتایج باورنکردنی را تجربه می کنند ملاقات کنید</h1>
+              </div>
+            </div>
+            <div class="row">
+              <!--Carousel Wrapper-->
+              <div id="multi-item-carousel" class="carousel slide carousel-multi-item" data-ride="carousel">
+                <!--Indicators-->
+                <!-- <ol class="carousel-indicators" style="margin-bottom: -40px;">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                </ol> -->
+                <!--/.Indicators-->
+
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+
+                  <!--First slide-->
+                  <div class="carousel-item active">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2 my-card">
+                              <img class="card-img-top"
+                                src="images/awcc.jpeg"
+                                alt="Card image cap">
+                              <div class="card-body">
+                                <p class="card-text">"ما می توانیم به لطف استراتژی بازاریابی محتوا و اجرای خود ، در یک سه ماهه 3 میلیون افغانی درآمد کمایی کنیم."</p>
+                                <p class="text-center my-card-text-footer">
+                                  <img class="img-fluid my-card-text-img" src="images/Ehsan-Bayat.jpg" alt="">
+                                  <p class="text-center">
+                                    <strong>احسان بیات</strong><br>
+                                    مالک افغان بیسیم
+                                  </p>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                    
+                          <div class="col-md-4">
+                            <div class="card mb-2 my-card">
+                              <img class="card-img-top"
+                                src="images/hamedbaba.jpg"
+                                alt="Card image cap">
+                              <div class="card-body">
+                                <p class="card-text">"اکنون صحبت می کنیم ... بیش از 100000 رهبری در سال است. اکنون درآمد ما 117 میلیون دلار است که حاشیه های بهتری نیز دارد."</p>
+                                <p class="text-center my-card-text-footer">
+                                  <img class="img-fluid my-card-text-img" src="images/Hamed Minhaj.jpg" alt="">
+                                  <p class="text-center">
+                                    <strong>حامد منهاج</strong><br>
+                                    مالک حامد بابا لیمیتد
+                                  </p>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                    
+                          <div class="col-md-4">
+                            <div class="card mb-2 my-card">
+                              <img class="card-img-top"
+                                src="images/card-4.jpg"
+                                alt="Card image cap">
+                              <div class="card-body">
+                                <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
+                                <p class="text-center my-card-text-footer">
+                                  <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
+                                  <p class="text-center">
+                                    <strong>نام مشتری</strong><br>
+                                    مالک, کمپنی
+                                  </p>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+
+                  </div>
+                  <!--/.First slide-->
+
+                  <!--Second slide-->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card mb-2 my-card">
+                          <img class="card-img-top"
+                            src="images/card-4.jpg"
+                            alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
+                            <p class="text-center my-card-text-footer">
+                              <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
+                              <p class="text-center">
+                                <strong>نام مشتری</strong><br>
+                                مالک, کمپنی
+                              </p>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-md-4">
+                        <div class="card mb-2 my-card">
+                          <img class="card-img-top"
+                            src="images/card-4.jpg"
+                            alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
+                            <p class="text-center my-card-text-footer">
+                              <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
+                              <p class="text-center">
+                                <strong>نام مشتری</strong><br>
+                                مالک, کمپنی
+                              </p>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="col-md-4">
+                        <div class="card mb-2 my-card">
+                          <img class="card-img-top"
+                            src="images/card-4.jpg"
+                            alt="Card image cap">
+                          <div class="card-body">
+                            <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
+                            <p class="text-center my-card-text-footer">
+                              <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
+                              <p class="text-center">
+                                <strong>نام مشتری</strong><br>
+                                مالک, کمپنی
+                              </p>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--/.Second slide-->
+
+                  <a class="carousel-control-prev my-carousel-control" href="#multi-item-carousel" data-slide="prev"><span><i class="fas fa-chevron-left"></i></span></a>
+                  <a class="carousel-control-next my-carousel-control" href="#multi-item-carousel" data-slide="next"><i
+                      class="fas fa-chevron-right"></i></a>
+
+                </div>
+                <!--/.Slides-->
+
+              </div>
+              <!--/.Carousel Wrapper-->
+            </div>
+          </div>
+          <div class="container my-container">
+            <div class="row">
+              <div class="col-12 my-article-col">
+                <h3 class="pr-3 pb-3">مقالات اخیر</h3>
+                <div class="row my-article-row">  
+                  <div class="col-2">
+                    <img src="images/card-2.jpg" class="my-article-img" alt="">
+                  </div>
+                  <div class="col-9">
+                    <span class="my-article-title">فروشات و تمایل بازاریابی</span>
+                    <p class="my-article-text">چرا یک آژانس بازاریابی ورودی باید با تیم فروش شما همکاری کند؟</p>
+                    <span class="my-article-description"><strong>نوشته شده توسط جین باریل</strong> در 21 اگست 2020</span>
+                  </div>
+                </div>
+                <div class="row my-article-row">  
+                  <div class="col-2">
+                    <img src="images/card-2.jpg" class="my-article-img" alt="">
+                  </div>
+                  <div class="col-9">
+                    <span class="my-article-title">فروشات و تمایل بازاریابی</span>
+                    <p class="my-article-text">چرا یک آژانس بازاریابی ورودی باید با تیم فروش شما همکاری کند؟</p>
+                    <span class="my-article-description"><strong>نوشته شده توسط جین باریل</strong> در 21 اگست 2020</span>
+                  </div>
+                </div>
+                <div class="row my-article-row">  
+                  <div class="col-2">
+                    <img src="images/card-2.jpg" class="my-article-img" alt="">
+                  </div>
+                  <div class="col-9">
+                    <span class="my-article-title">فروشات و تمایل بازاریابی</span>
+                    <p class="my-article-text">چرا یک آژانس بازاریابی ورودی باید با تیم فروش شما همکاری کند؟</p>
+                    <span class="my-article-description"><strong>نوشته شده توسط جین باریل</strong> در 21 اگست 2020</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
+      <footer class="my-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h4>فروش دیجیتال و بازاریابی</h4>
+              <p><a href="#">آموزش بازاریابی محتوا</a></p>
+              <p><a href="#">حسابرسی فنی SEO</a></p>
+              <p><a href="#">جستجوی پرداخت شده و اجتماعی</a></p>
+              <p><a href="#">بازاریابی محتوا و ورودی 101</a></p>
+            </div>
+            <div class="col-md-3">
+              <h4>فروش فیلم و بازاریابی</h4>
+              <p><a href="#">کارگاه بازاریابی ویدیویی</a></p>
+              <p><a href="#">آژانس تولید فیلم</a></p>
+              <p><a href="#">آموزش بازاریابی ویدیویی</a></p>
+              <p><a href="#">نمونه کارها بازاریابی ویدیویی</a></p>
+            </div>
+            <div class="col-md-3">
+              <h4>طراحی وب و استراتژی</h4>
+              <p><a href="#">طراحی وب سایت تجاری</a></p>
+              <p><a href="#">طرح وب سایت کسب و کار</a><p>
+              <p><a href="#">راهنمای استراتژی وب سایت</a></p>
+              <p><a href="#">وب سایت بی نقص ورودی</a></p>
+            </div>
+            <div class="col-md-3">
+              <h4>آموزش HubSpot</h4>
+              <p><a href="#">آموزش HubSpot</a></p>
+              <p><a href="#">کارگاه فشرده HubSpot</a></p>
+              <p><a href="#">آژانس HubSpot</a></p>
+              <p><a href="#">HubSpot برای بازاریابی</a></p>
+            </div>
+          </div>
+          <hr class="my-3">
+          <div class="row">
+            <div class="col-6">
+              <img src="images/Digital Creatives white Logo.png" alt="Logo image">
+              <p>
+                &copy; 2020 Digital Creatives حق کاپی محفوظ است.
+              </p>
+            </div>
+            <div class="col-6 pt-3">
+              <p>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fab fa-youtube-square"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </p>
+              <p>
+                <a href="#">تماس با ما</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">سیاست حفظ حریم خصوصی</a>&nbsp;&nbsp;&nbsp;
+                <a href="#">علائم تجاری</a>&nbsp;&nbsp;&nbsp;
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+        
     </div>
 
+    <script src="vendor/jquery/jquery-3.5.1.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/fontawesome/js/fontawesome.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <!-- javascript file link where we write our javascript codes. -->
     <script src="scripts/main.js"></script>
 </body>
