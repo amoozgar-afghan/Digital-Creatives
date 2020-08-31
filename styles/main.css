@@ -176,30 +176,30 @@ li.active .my-nav-link::after {
     border-color: #fff;
 }
 
-.service-head-container {
+.my-service-head-container {
     min-height: 480px;
     background: url("../images/services-head.jpg");
     color: #fff;
 }
 
-.service-head-container h6 {
+.my-service-head-container h6 {
     font-size: 20px;
 }
 
-.service-head-container h1 {
+.my-service-head-container h1 {
     font-size: 64px;
 }
 
-.service-head-container p {
+.my-service-head-container p {
     font-size: 28px;
 }
 
-.service-head-container a {
+.my-service-head-container a {
     color: #fff;
     border: 1px solid #fff;
 }
 
-.service-head-container a:hover {
+.my-service-head-container a:hover {
     background-color: #336699;
     border-color: #336699;
     color: #fff;
@@ -374,4 +374,36 @@ li.active .my-nav-link::after {
 .my-blog-link:hover {
     color: #080708;
     text-decoration: none;
+}
+
+.my-about-head-container {
+    min-height: 480px;
+    background: url("../images/New to IMPACT Hero Full.jpg");
+    color: #fff;
+}
+
+.my-contact-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.my-contact-us h1 {
+    font-size: 48px;
+}
+
+.my-contact-us p {
+    font-size: 26px;
+}
+
+.my-contact-row {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: 0 2px 4px 0 #5f5f5f;
+    border-radius: 10px;
+}
+
+.my-contact-row p {
+    font-size: 20px;
 }
