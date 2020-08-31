@@ -25,6 +25,7 @@ body {
     font-weight: 400;
     margin-right: 20%;
 }
+
 .my-nav-link {
     color: #F5F9E9;
 }
@@ -39,6 +40,9 @@ body {
     height: 2px;
     background: #fff;
     transition: width .3s;
+}
+li.active .my-nav-link::after {
+    width: 100%;
 }
 .my-nav-link:hover::after {
     width: 100%;
@@ -89,7 +93,6 @@ body {
     top: 0;
     min-height: 557.33px;
     box-shadow: 0 10px 15px 0 rgba(42, 121, 124, 0.1);
-    cursor: pointer;
     transition: box-shadow 0.3s ease-in-out, top 0.2s ease-in-out;
     -webkit-transition: box-shadow 0.3s ease-in-out, top 0.2s ease-in-out;
     -o-transition: box-shadow 0.3s ease-in-out, top 0.2s ease-in-out;
@@ -139,6 +142,7 @@ body {
 .my-article-img {
     width: 180px;
     height: 100px;
+    border-radius: 0 10px 10px 0;
 }
 
 .my-article-title {
@@ -170,4 +174,97 @@ body {
 
 .my-footer hr {
     border-color: #fff;
+}
+
+.service-head-container {
+    min-height: 480px;
+    background: url("../images/services-head.jpg");
+    color: #fff;
+}
+
+.service-head-container h6 {
+    font-size: 20px;
+}
+
+.service-head-container h1 {
+    font-size: 64px;
+}
+
+.service-head-container p {
+    font-size: 28px;
+}
+
+.service-head-container a {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.service-head-container a:hover {
+    background-color: #336699;
+    border-color: #336699;
+    color: #fff;
+}
+
+.my-working-container p {
+    font-size: 18px;
+}
+
+.my-card-icon {
+    width: 70px;
+    margin: 30px auto;
+    
+}
+
+.my-btn-outlined {
+    border: 2px solid #336699;
+    color:#336699;
+    background-color: transparent;
+}
+
+.my-btn-outlined:hover {
+    border: 2px solid #336699;
+    color:#fff;
+    background-color: #336699;
+}
+
+.my-card:hover .my-btn-outlined {
+    border: 2px solid #336699;
+    color:#fff;
+    background-color: #336699;
+} 
+
+.my-services-card {
+    border-top: 7px solid #336699;
+    min-height: 599px;
+    box-shadow: 0 2px 4px 0 #fafafa;
+}
+
+.my-services-card:hover {
+    box-shadow: 0 4px 8px 0 #fafafa;
+}
+
+.my-services-card p {
+    font-size: 20px;
+}
+
+.my-services-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: url("../images/services-bg-cropped-2.jpg") center no-repeat border-box;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.my-services-container h1 {
+    color: #fff;
+}
+
+.my-compare-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.my-compare-container p {
+    margin: 10px 130px;
+    font-size: 20px;
 }
