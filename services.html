@@ -6,8 +6,6 @@
 
     <!-- fontawesome css file link -->
     <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
-    <!-- Layout css file link -->
-    <link rel="stylesheet" href="styles/layout.css">
 
     <!-- css file link where we add our styles. -->
     <link rel="stylesheet" href="styles/main.css">
@@ -21,51 +19,43 @@
     <div class="my-wrapper">
         
         <!-- Navigation bar (menubar) -->
-        <nav class="navbar navbar-expand-lg fixed-top my-navbar">
+        <nav class="my-navbar">
             <!-- this link contains the logo image -->
-            <a class="navbar-brand my-logo-link" href="index.html">
+            <a class="my-logo-link" href="index.html">
                 <img src="images/Digital Creatives white Logo.png" alt="Logo image">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <!-- Navigation bar or menubar links -->
-              <ul class="navbar-nav my-navbar-links">
-                <li class="nav-item">
-                  <!-- link to index.html page -->
-                  <a class="nav-link my-nav-link" href="index.html">صفحه اصلی</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link my-nav-link" href="services.html">خدمات</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="blogs.html">بلاگ ها</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="about.html">درباره ما</a>
-                </li>
-              </ul>
-            </div>
+            <ul class="my-navbar-links">
+              <li>
+                <!-- link to index.html page -->
+                <a class="my-nav-link" href="index.html">صفحه اصلی</a>
+              </li>
+              <li class="active">
+                <a class="my-nav-link" href="services.html">خدمات</a>
+              </li>
+              <li>
+                <a class="my-nav-link" href="#">بلاگ ها</a>
+              </li>
+              <li>
+                <a class="my-nav-link" href="about.html">درباره ما</a>
+              </li>
+            </ul>
         </nav>
 
         <!-- the content of the page which starts from under the menubar -->
-        <section class="my-content  bg-white">
+        <section class="my-content bg-white">
           <div class="container-fluid my-service-head-container">
-            <div class="row pt-5 my-services-row-1">
-                <div class="col-2"></div>
-              <div class="col-8 my-services-col">
+            <div class="my-services-row-1" style="padding-top: 40px;">
+              <div class="my-services-col">
                 <article>
                     <h6 class="text-center">خدمات دیجتال کریتیوز</h6>
                     <h1 class="text-center">نتایج متفاوت و بی نظیر</h1>
                     <p>هزاران شرکت با رویکرد انقلابی ما در زمینه فروش و بازاریابی دیجیتال ، از تهاجمی ترین اهداف تجاری خود فراتر رفته اند. با دیجتال کریتیوز، در گوشه خود یک شریک استراتژیک دارید که وسواس شما را در دستیابی به نتایج خارق العاده وسواس می کند.</p>
                 </article>
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-3">
+                <div class="text-center">
+                    <div class="my-service-head-btn-div">
                         <a href="#" class="btn btn-block">بیشتر بدانید</a>
                     </div>
-                    <div class="col-3">
+                    <div class="my-service-head-btn-div">
                         <a href="about.html#contact" class="btn btn-block">در تماس شوید</a>
                     </div>
                 </div>
@@ -73,273 +63,178 @@
             </div>
             
           </div>  
-          <div class="container pt-5 pb-5 my-working-container">
-            <div class="row">
-                <div class="col-md-3"></div>
-              <div class="col-md-6 pt-1">
+          <div class="container my-working-container">
+            <div class="text-center">
+              <div class="" style="padding-top: 8px;">
                 <h2 class="text-center">چگونه کار کردن با Digital Creatives تجارت من را تغییر خواهد داد؟</h2>
-                <div class="row pt-5">
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/Icon_increase search rankings.svg" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <p>
-                                    افزایش قابل توجهی در رتبه بندی جستجو و ترافیک ارگانیک
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/Icon_shortened sales cycle.svg" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <p>
-                                    چرخه فروش را کوتاه کرده و نرخ نزدیک را افزایش می دهد
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/Icon_optimized lead generation.svg" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <p>
-                                    وب سایت بهینه سازی شده برای تولید سرب و امکان فروش
-                                </p>
-                            </div>
-                        </div>
+                <div class="text-center" style="padding-top: 40px;">
+                  <div class="column-5">
+                    <div class="my-values">
+                      <img src="images/Icon_increase search rankings.svg" class="img-fluid" alt="">
+                      <span>
+                              افزایش قابل توجهی در رتبه بندی جستجو و ترافیک ارگانیک
+                      </span>
                     </div>
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/Icon_full alignment.svg" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <p>
-                                    هماهنگی کامل بین فروش ، بازاریابی و دید سازمانی
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col-md-4">
-                                <img src="images/Icon-check.svg" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <p>
-                                    تیمی آموزش دیده که مدت طولانی به یک نمایندگی وابسته نیست
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <img src="images/Icon_best content.svg" class="img-fluid" alt="">
-                            </div>
-                            <div class="col-md-8">
-                                <p>
-                                    بهترین محتوای مطلوب در صنعت شما
-                                </p>
-                            </div>
-                        </div>
+                    <div class="my-values">
+                        <img src="images/Icon_shortened sales cycle.svg" class="img-fluid" alt="">
+                        <span>
+                            چرخه فروش را کوتاه کرده و نرخ نزدیک را افزایش می دهد
+                        </span>
                     </div>
+                  
+                    <div class="my-values">
+                        <img src="images/Icon_optimized lead generation.svg" class="img-fluid" alt="">
+                        <span>
+                            وب سایت بهینه سازی شده برای تولید سرب و امکان فروش
+                        </span>
+                    </div>
+                  </div>
+                  <div  class="column-5">  
+                    <div class="my-values">
+                        <img src="images/Icon_full alignment.svg" class="img-fluid" alt="">
+                        <span>
+                            هماهنگی کامل بین فروش ، بازاریابی و دید سازمانی
+                        </span>
+                    </div>
+                  
+                    <div class="my-values">
+                        <img src="images/Icon-check.svg" class="img-fluid" alt="">
+                        <span>
+                            تیمی آموزش دیده که مدت طولانی به یک نمایندگی وابسته نیست
+                        </span>
+                    </div>
+                  
+                    <div class="my-values">
+                        <img src="images/Icon_best content.svg" class="img-fluid" alt="">
+                        <span>
+                            بهترین محتوای مطلوب در صنعت شما
+                        </span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="container-fluid my-services-container">            
-            <div class="row pt-5 pb-5">
-              <div class="col-12">
+            <div class="" style="padding: 40px 0;">
+              <div>
                 <h1 class="text-center">چگونه ما میتوانیم به شما کمک کنیم؟</h1>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card mb-2 text-center my-card my-services-card">
+            <div class="">
+              <div class="column-4">
+                <div class="my-card my-services-card">
                   <img class="my-card-icon"
                     src="images/icon inbound marketing.svg"
                     alt="Card image cap">
-                  <div class="card-body">
+                  <div style="padding: 1.25rem;">
                     <h3>ورودی و محتوا</h3>
-                    <p class="card-text">به تیم خود کمک کنید تا محتوا را هدایت کند که فروش را کاهش می دهد ، چرخه فروش را کوتاه می کند و نرخ نزدیک را افزایش می دهد.</p>
-                    <p class="card-text">
+                    <p>به تیم خود کمک کنید تا محتوا را هدایت کند که فروش را کاهش می دهد ، چرخه فروش را کوتاه می کند و نرخ نزدیک را افزایش می دهد.</p>
+                    <p>
                       <strong>
                         <a href="#">برنامه شروع سریع</a>
                       </strong>
                     </p>
-                    <p class="card-text">
+                    <p>
                       <strong>
                         <a href="#">آموزش محتوا</a>
                       </strong>
                     </p>
-                    <p class="card-text">
+                    <p>
                       <strong>
                         <a href="#">بهینه سازی موتور جستجو</a>
                       </strong>
                     </p>
-                    <div class="p-5">
+                    <div style="padding: 40px;">
                       <button class="btn btn-block my-btn-outlined">LEARN MORE</button>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="card mb-2 text-center my-card my-services-card">
+              <div class="column-4">
+                <div class="my-card my-services-card">
                   <img class="my-card-icon"
                     src="images/icon web development.svg"
                     alt="Card image cap">
-                  <div class="card-body">
+                  <div style="padding: 1.25rem;">
                     <h3>طراحی وب سایت</h3>
-                    <p class="card-text">وب سایت جدید خود را که برای عملکرد ساخته شده است ، در HubSpot یا WordPress راه اندازی کنید.</p>
-                    <p class="card-text">
+                    <p  >وب سایت جدید خود را که برای عملکرد ساخته شده است ، در HubSpot یا WordPress راه اندازی کنید.</p>
+                    <p  >
                       <strong>
                         <a href="#">استراتژی وب سایت</a>
                       </strong>
                     </p>
-                    <p class="card-text">
+                    <p  >
                       <strong>
                         <a href="#">طراحی وب سفارشی</a>
                       </strong>
                     </p>
-                    <div class="p-5">
+                    <div style="padding: 40px;">
                       <button class="btn btn-block my-btn-outlined">LEARN MORE</button>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="card mb-2 text-center my-card my-services-card">
+              <div class="column-4">
+                <div class="my-card my-services-card">
                   <img class="my-card-icon"
                     src="images/icon video marketing.svg"
                     alt="Card image cap">
-                  <div class="card-body">
+                  <div style="padding: 1.25rem;">
                     <h3>ویدئو</h3>
-                    <p class="card-text">گزینه هایی برای کمک به شما در پروژه های ویدیویی یا آموزش تیم ویدیویی داخلی. <a href="#"> نمونه کارها فیلم ما را ببینید</a>.</p>
-                    <p class="card-text">
+                    <p  >گزینه هایی برای کمک به شما در پروژه های ویدیویی یا آموزش تیم ویدیویی داخلی. <a href="#"> نمونه کارها فیلم ما را ببینید</a>.</p>
+                    <p  >
                       <strong>
                         <a href="#">تولید فیلم</a>
                       </strong>
                     </p>
-                    <p class="card-text">
+                    <p  >
                       <strong>
                         <a href="#">آموزش در محل</a>
                       </strong>
                     </p>
-                    <p class="card-text">
+                    <p  >
                       <strong>
                         <a href="#">آموزش مجازی هفتگی</a>
                       </strong>
                     </p>
-                    <div class="p-5">
+                    <div style="padding: 40px;">
                       <button class="btn btn-block my-btn-outlined">LEARN MORE</button>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4"></div>
-              
-              <div class="col-md-4">
-                <div class="card mb-2 text-center my-card mt-4 my-services-card">
+              <div class="column-4" style="margin-right: 33.33%;">
+                <div class="my-card mt-4 my-services-card">
                   <img class="my-card-icon"
                     src="images/icon-ppc-icon.svg"
                     alt="Card image cap">
-                  <div class="card-body">
+                  <div style="padding: 1.25rem;">
                     <h3>جستجوی پرداخت شده و اجتماعی</h3>
-                    <p class="card-text">با استراتژی صحیح و کمپین های با عملکرد بالا ، عملکرد رسانه پولی خود را افزایش دهید.</p>
-                    <p class="card-text">
+                    <p  >با استراتژی صحیح و کمپین های با عملکرد بالا ، عملکرد رسانه پولی خود را افزایش دهید.</p>
+                    <p  >
                       <strong>
                         تبلیغات فیس بوک
                       </strong>
                     </p>
-                    <p class="card-text">
+                    <p  >
                       <strong>
                         تبلیغات گوگل
                       </strong>
                     </p>
-                    <p class="card-text">
+                    <p  >
                       <strong>
                         تبلیغات لینکد ان
                       </strong>
                     </p>
-                    <div class="p-5">
+                    <div style="padding: 40px;">
                       <button class="btn btn-block my-btn-outlined">LEARN MORE</button>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="container my-compare-container">
-            <div class="row text-center">
-              <div class="col-12">
-                <h2>آیا ما مناسب شما هستیم؟</h2>
-                <p class="my-compare-lead-p">
-                  DIGITAL CREATIVES در مقایسه با سایر آژانس های بازاریابی ورودی ، از رویکرد بسیار متفاوتی استفاده می کند. ما متوجه شده ایم که مشاغل به احتمال زیاد جذب هدایت ، کوتاه کردن چرخه فروش و درآمد حاصل از رویکرد ورود به کشور می شوند.
-                  <br>
-                  <br>
-                  ببینید که چگونه رویکرد ما با آژانس های سنتی زیر مقایسه می شود. اگر این با شما طنین انداز باشد ، ما برای همکاری با یکدیگر مناسب هستیم!
-                </p>
-              </div>
-            </div>
-            <div class="row pt-3 my-compare-row">
-              <div class="col-6 my-compare-col4">
-                <h5 class="my-compare-h5 my-gray">رویکرد نمایندگی سایر آژانس های بازاریابی</h5>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <h5 class="my-compare-h5 my-primary">رویکرد DIGITAL CREATIVES'</h5>
-              </div>
-            </div>
-            <div class="row my-compare-row my-compare-row-body">
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon cross.svg" alt="">
-                <p>
-                  یک چرخه وابستگی ایجاد می کند ، بنابراین شما "مزاحم نشوید" و آنها بزرگترین نگهدارنده ممکن را از شما می گیرند.
-                </p>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon check.svg" alt="">
-                <p>
-                  تمرکز خود را بر روی آموزش تیم خود و کمک به رشد افراد خود بگذارید تا دیگر برای همیشه به یک آژانس وابسته نباشید.
-                </p>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon cross.svg" alt="">
-                <p>
-                  آژانس محتوای شما را به صورت سیلو ایجاد می کند ، اغلب فاقد لحن و تخصص شرکت شما است.
-                </p>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon check.svg" alt="">
-                <p>
-                  کل سازمان خود را در حول فرهنگ محتوای آموزشی تراز می کند و منجر می شود شما به معتبرترین صدا در صنعت خود تبدیل شوید و در صورت داشتن سوال ، چشم انداز منابع اصلی را به سمت خود سوق دهید.
-                </p>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon cross.svg" alt="">
-                <p>
-                  تیم فروش شما به ندرت ، اگر هرگز در آن حضور داشته باشد ، منجر به از دست رفتن فرصتی برای استفاده از ثروت دانش مشتری خود برای ایجاد چرخه های فروش کوتاه تر و نرخ بسته شدن بالاتر می شود.
-                </p>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon check.svg" alt="">
-                <p>
-                  برای ادغام محتوا و ویدئو در فرآیند کار از طریق یک سیستم اثبات شده به نام "فروش تکلیف" ، با بخش فروش شما همکاری می کند و منجر به پیشرفت قابل توجهی در نرخ های نزدیک و درآمد می شود.
-                </p>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon cross.svg" alt="">
-                <p>
-                  به جای اینکه یک متخصص شما را راهنمایی کند ، به آژانس می گویید چه کاری انجام دهد ، و آنها این کار را انجام می دهند. هیچ چیز ناامیدکننده ای بیشتر از زمانی نیست که مشتری چیزی بیشتر از تماس نمایندگی اختصاص داده شده خود بداند.
-                </p>
-              </div>
-              <div class="col-6 my-compare-col4">
-                <img src="images/icon check.svg" alt="">
-                <p>
-                  مشاوره استراتژیک و یک مشاور قابل اعتماد را ارائه می دهد ، که در صورت لزوم عقب رانده و شما را راهنمایی می کند تا به بزرگترین موفقیت تجاری خود برسید.
-                </p>
               </div>
             </div>
           </div>
@@ -347,23 +242,22 @@
 
       <footer class="my-footer">
         <div class="container">
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-md-3">
+          <div class="text-center">
+            <div class="column-3">
               <h4>فروش دیجیتال و بازاریابی</h4>
               <p><a href="#">آموزش بازاریابی محتوا</a></p>
               <p><a href="#">حسابرسی فنی SEO</a></p>
               <p><a href="#">جستجوی پرداخت شده و اجتماعی</a></p>
               <p><a href="#">بازاریابی محتوا و ورودی 101</a></p>
             </div>
-            <div class="col-md-3">
+            <div class="column-3">
               <h4>فروش فیلم و بازاریابی</h4>
               <p><a href="#">کارگاه بازاریابی ویدیویی</a></p>
               <p><a href="#">آژانس تولید فیلم</a></p>
               <p><a href="#">آموزش بازاریابی ویدیویی</a></p>
               <p><a href="#">نمونه کارها بازاریابی ویدیویی</a></p>
             </div>
-            <div class="col-md-3">
+            <div class="column-3">
               <h4>طراحی وب و استراتژی</h4>
               <p><a href="#">طراحی وب سایت تجاری</a></p>
               <p><a href="#">طرح وب سایت کسب و کار</a><p>
@@ -371,16 +265,15 @@
               <p><a href="#">وب سایت بی نقص ورودی</a></p>
             </div>
           </div>
-          <hr class="my-3">
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-4">
+          <hr style="margin: 24px 0;">
+          <div class="text-center">
+            <div class="column-4">
               <img src="images/Digital Creatives white Logo.png" alt="Logo image">
               <p>
                 &copy; 2020 Digital Creatives حق کاپی محفوظ است.
               </p>
             </div>
-            <div class="col-4 pt-3">
+            <div class="column-4" style="padding-top: 24px;">
               <p>
                 <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

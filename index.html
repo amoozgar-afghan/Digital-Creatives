@@ -6,8 +6,6 @@
 
     <!-- fontawesome css file link -->
     <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
-    <!-- Layout css file link -->
-    <link rel="stylesheet" href="styles/layout.css">
 
     <!-- css file link where we add our styles. -->
     <link rel="stylesheet" href="styles/main.css">
@@ -21,40 +19,35 @@
     <div class="my-wrapper">
         
         <!-- Navigation bar (menubar) -->
-        <nav class="navbar navbar-expand-lg fixed-top my-navbar">
+        <nav class="my-navbar">
             <!-- this link contains the logo image -->
-            <a class="navbar-brand my-logo-link" href="index.html">
+            <a class="my-logo-link" href="index.html">
                 <img src="images/Digital Creatives white Logo.png" alt="Logo image">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <!-- Navigation bar or menubar links -->
-              <ul class="navbar-nav my-navbar-links">
-                <li class="nav-item active">
-                  <!-- link to index.html page -->
-                  <a class="nav-link my-nav-link" href="index.html">صفحه اصلی</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="services.html">خدمات</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="blogs.html">بلاگ ها</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link my-nav-link" href="about.html">درباره ما</a>
-                </li>
-              </ul>
-            </div>
+            <!-- Navigation bar or menubar links -->
+            <ul class="my-navbar-links">
+              <li class="active">
+                <!-- link to index.html page -->
+                <a class="my-nav-link" href="index.html">صفحه اصلی</a>
+              </li>
+              <li>
+                <a class="my-nav-link" href="services.html">خدمات</a>
+              </li>
+              <li>
+                <a class="my-nav-link" href="#">بلاگ ها</a>
+              </li>
+              <li>
+                <a class="my-nav-link" href="about.html">درباره ما</a>
+              </li>
+            </ul>
         </nav>
 
         <!-- the content of the page which starts from under the menubar -->
-        <section class="my-content  bg-white">
+        <section class="my-content bg-white">
           <div class="container-fluid">
-            <div class="row my-first-row">
-              <div class="col-lg-4"></div>
-              <div class="col-lg-8 my-header-img-col">
+            <div class="my-first-row">
+              <div class=""></div>
+              <div class="my-header-img-col">
                 
                 <div class="my-header-image-div">
                   <!-- the web design which contains tablet, computer, smart phone and other screens. -->
@@ -73,187 +66,98 @@
             </div>            
           </div>  
           <div class="container">
-            <div class="row">
-              <div class="col-12 pt-1">
+            <div>
+              <div style="padding-top: 10px;">
                 <h3>مشتریان ما</h3>
               </div>
-              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+              <div class="column-4">
                 <img src="images/alokozay-logo.jpg" class="img-fluid" alt="Alokozay Logo">
               </div>
-              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+              <div class="column-4">
                 <img src="images/Afghanistan_Bank_Logo.png" class="img-fluid" alt="Afghanistan bank Logo">
               </div>
-              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+              <div class="column-4">
                 <img src="images/un-logo.jpg" class="img-fluid" alt="UN Logo">
               </div>
-              <div class="col-6 col-sm-4 col-md-3 py-1 text-center">
+              <div class="column-4">
                 <img src="images/wfp-logo.png" class="img-fluid" alt="WFP Logo">
               </div>
             </div>
           </div>
+          
           <div class="container-fluid my-container-style-1">            
-            <div class="row pt-5">
-              <div class="col-12">
+            <div style="padding: 30px 0;">
+              <div class="">
                 <h1 class="text-center">با تجارت های مانند شما که نتایج باورنکردنی را تجربه می کنند ملاقات کنید</h1>
               </div>
             </div>
-            <div class="row">
-              <!--Carousel Wrapper-->
-              <div id="multi-item-carousel" class="carousel slide carousel-multi-item" data-ride="carousel">
-                <!--Indicators-->
-                <!-- <ol class="carousel-indicators" style="margin-bottom: -40px;">
-                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-                    <li data-target="#multi-item-example" data-slide-to="1"></li>
-                </ol> -->
-                <!--/.Indicators-->
-
-                <!--Slides-->
-                <div class="carousel-inner" role="listbox">
-
-                  <!--First slide-->
-                  <div class="carousel-item active">
-
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card mb-2 my-card">
-                              <img class="card-img-top"
-                                src="images/awcc.jpeg"
-                                alt="Card image cap">
-                              <div class="card-body">
-                                <p class="card-text">"ما می توانیم به لطف استراتژی بازاریابی محتوا و اجرای خود ، در یک سه ماهه 3 میلیون افغانی درآمد کمایی کنیم."</p>
-                                <p class="text-center my-card-text-footer">
-                                  <img class="img-fluid my-card-text-img" src="images/Ehsan-Bayat.jpg" alt="">
-                                  <p class="text-center">
-                                    <strong>احسان بیات</strong><br>
-                                    مالک افغان بیسیم
-                                  </p>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                    
-                          <div class="col-md-4">
-                            <div class="card mb-2 my-card">
-                              <img class="card-img-top"
-                                src="images/hamedbaba.jpg"
-                                alt="Card image cap">
-                              <div class="card-body">
-                                <p class="card-text">"اکنون صحبت می کنیم ... بیش از 100000 رهبری در سال است. اکنون درآمد ما 117 میلیون دلار است که حاشیه های بهتری نیز دارد."</p>
-                                <p class="text-center my-card-text-footer">
-                                  <img class="img-fluid my-card-text-img" src="images/Hamed Minhaj.jpg" alt="">
-                                  <p class="text-center">
-                                    <strong>حامد منهاج</strong><br>
-                                    مالک حامد بابا لیمیتد
-                                  </p>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                    
-                          <div class="col-md-4">
-                            <div class="card mb-2 my-card">
-                              <img class="card-img-top"
-                                src="images/card-4.jpg"
-                                alt="Card image cap">
-                              <div class="card-body">
-                                <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
-                                <p class="text-center my-card-text-footer">
-                                  <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
-                                  <p class="text-center">
-                                    <strong>نام مشتری</strong><br>
-                                    مالک, کمپنی
-                                  </p>
-                                </p>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-
+            
+            <div class="customer-comments">
+              <div class="column-4">
+                <div class="my-card">
+                  <img
+                    src="images/awcc.jpeg"
+                    alt="Card image cap">
+                  <div style="padding: 1.25rem;">
+                    <p>"ما می توانیم به لطف استراتژی بازاریابی محتوا و اجرای خود ، در یک سه ماهه 3 میلیون افغانی درآمد کمایی کنیم."</p>
+                    <p class="text-center">
+                      <img class="my-card-text-img" src="images/Ehsan-Bayat.jpg" alt="">
+                      <p class="text-center">
+                        <strong>احسان بیات</strong><br>
+                        مالک افغان بیسیم
+                      </p>
+                    </p>
                   </div>
-                  <!--/.First slide-->
-
-                  <!--Second slide-->
-                  <div class="carousel-item">
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="card mb-2 my-card">
-                          <img class="card-img-top"
-                            src="images/card-4.jpg"
-                            alt="Card image cap">
-                          <div class="card-body">
-                            <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
-                            <p class="text-center my-card-text-footer">
-                              <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
-                              <p class="text-center">
-                                <strong>نام مشتری</strong><br>
-                                مالک, کمپنی
-                              </p>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    
-                      <div class="col-md-4">
-                        <div class="card mb-2 my-card">
-                          <img class="card-img-top"
-                            src="images/card-4.jpg"
-                            alt="Card image cap">
-                          <div class="card-body">
-                            <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
-                            <p class="text-center my-card-text-footer">
-                              <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
-                              <p class="text-center">
-                                <strong>نام مشتری</strong><br>
-                                مالک, کمپنی
-                              </p>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    
-                      <div class="col-md-4">
-                        <div class="card mb-2 my-card">
-                          <img class="card-img-top"
-                            src="images/card-4.jpg"
-                            alt="Card image cap">
-                          <div class="card-body">
-                            <p class="card-text">طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
-                            <p class="text-center my-card-text-footer">
-                              <img class="img-fluid my-card-text-img" src="images/user.png" alt="">
-                              <p class="text-center">
-                                <strong>نام مشتری</strong><br>
-                                مالک, کمپنی
-                              </p>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                  <!--/.Second slide-->
-
-                  <a class="carousel-control-prev my-carousel-control" href="#multi-item-carousel" data-slide="prev"><span><i class="fas fa-chevron-left"></i></span></a>
-                  <a class="carousel-control-next my-carousel-control" href="#multi-item-carousel" data-slide="next"><i
-                      class="fas fa-chevron-right"></i></a>
-
                 </div>
-                <!--/.Slides-->
-
               </div>
-              <!--/.Carousel Wrapper-->
+        
+              <div class="column-4">
+                <div class="my-card">
+                  <img
+                    src="images/hamedbaba.jpg"
+                    alt="Card image cap">
+                  <div style="padding: 1.25rem;">
+                    <p>"اکنون صحبت می کنیم ... بیش از 100000 رهبری در سال است. اکنون درآمد ما 117 میلیون دلار است که حاشیه های بهتری نیز دارد."</p>
+                    <p class="text-center">
+                      <img class="my-card-text-img" src="images/Hamed Minhaj.jpg" alt="">
+                      <p class="text-center">
+                        <strong>حامد منهاج</strong><br>
+                        مالک حامد بابا لیمیتد
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="column-4">
+                <div class="my-card">
+                  <img
+                    src="images/card-4.jpg"
+                    alt="Card image cap">
+                  <div style="padding: 1.25rem;">
+                    <p>طی یک سال ، میزان ترافیک ارگانیک ما 350 درصد افزایش داشته است. در 2 سال ، بالاترین ماه ترافیک خود را با بیش از 23،000 ثبت کردیم که این افزایش 1.050٪ است.</p>
+                    <p class="text-center">
+                      <img class="my-card-text-img" src="images/user.png" alt="">
+                      <p class="text-center">
+                        <strong>نام مشتری</strong><br>
+                        مالک, کمپنی
+                      </p>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="container my-container">
-            <div class="row">
-              <div class="col-12 my-article-col">
-                <h3 class="pr-3 pb-3">مقالات اخیر</h3>
+            <div class="">
+              <div class="my-article-col">
+                <h3 class="" style="padding-right: 25px; padding-bottom: 25px;">مقالات اخیر</h3>
                 <a href="blog-1.html" class="my-blog-link">
-                  <div class="row my-article-row">  
-                    <div class="col-2">
+                  <div class="my-article-row">  
+                    <div class="my-article-img-div">
                       <img src="images/social-media-kpis.jpg" class="my-article-img" alt="">
                     </div>
-                    <div class="col-9">
+                    <div class="my-article-title-div">
                       <span class="my-article-title">بازاریابی از طریق رسانه های اجتماعی</span>
                       <p class="my-article-text">KPI رسانه های اجتماعی: 10 موردی که باید واقعاً آنها را ردیابی و کنترل کنید</p>
                       <span class="my-article-description"><strong>نوشته شده توسط Ramona Sukhraj</strong> در 30 اگست 2020</span>
@@ -261,11 +165,11 @@
                   </div>
                 </a>
                 <a href="blog-1.html" class="my-blog-link">
-                  <div class="row my-article-row">  
-                    <div class="col-2">
+                  <div class="my-article-row">  
+                    <div class="my-article-img-div">
                       <img src="images/color-explosion.png" class="my-article-img" alt="">
                     </div>
-                    <div class="col-9">
+                    <div class="my-article-title-div">
                       <span class="my-article-title">اینفوگرافیک</span>
                       <p class="my-article-text">رنگ های واقعی: انتخاب رنگ در مورد نام تجاری شما چه می گوید [اینفوگرافیک</p>
                       <span class="my-article-description"><strong>نوشته شده توسط Daniel Escardo</strong> در 29 اگست 2020</span>
@@ -273,11 +177,11 @@
                   </div>
                 </a>
                 <a href="blog-1.html" class="my-blog-link">
-                  <div class="row my-article-row">  
-                    <div class="col-2">
+                  <div class="my-article-row">  
+                    <div class="my-article-img-div">
                       <img src="images/business-website-strategy-mistakes.jpg" class="my-article-img" alt="">
                     </div>
-                    <div class="col-9">
+                    <div class="my-article-title-div">
                       <span class="my-article-title">طراحی سایت</span>
                       <p class="my-article-text">استراتژی وب سایت تجاری: 6 اشتباه رایجی که شرکت ها مرتکب می شوند</p>
                       <span class="my-article-description"><strong>نوشته شده توسط Erica Pierce</strong> در 28 اگست 2020</span>
@@ -291,23 +195,22 @@
 
       <footer class="my-footer">
         <div class="container">
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-md-3">
+          <div class="text-center">
+            <div class="column-3">
               <h4>فروش دیجیتال و بازاریابی</h4>
               <p><a href="#">آموزش بازاریابی محتوا</a></p>
               <p><a href="#">حسابرسی فنی SEO</a></p>
               <p><a href="#">جستجوی پرداخت شده و اجتماعی</a></p>
               <p><a href="#">بازاریابی محتوا و ورودی 101</a></p>
             </div>
-            <div class="col-md-3">
+            <div class="column-3">
               <h4>فروش فیلم و بازاریابی</h4>
               <p><a href="#">کارگاه بازاریابی ویدیویی</a></p>
               <p><a href="#">آژانس تولید فیلم</a></p>
               <p><a href="#">آموزش بازاریابی ویدیویی</a></p>
               <p><a href="#">نمونه کارها بازاریابی ویدیویی</a></p>
             </div>
-            <div class="col-md-3">
+            <div class="column-3">
               <h4>طراحی وب و استراتژی</h4>
               <p><a href="#">طراحی وب سایت تجاری</a></p>
               <p><a href="#">طرح وب سایت کسب و کار</a><p>
@@ -315,16 +218,15 @@
               <p><a href="#">وب سایت بی نقص ورودی</a></p>
             </div>
           </div>
-          <hr class="my-3">
-          <div class="row">
-            <div class="col-2"></div>
-            <div class="col-4">
+          <hr style="margin: 24px 0;">
+          <div class="text-center">
+            <div class="column-4">
               <img src="images/Digital Creatives white Logo.png" alt="Logo image">
               <p>
                 &copy; 2020 Digital Creatives حق کاپی محفوظ است.
               </p>
             </div>
-            <div class="col-4 pt-3">
+            <div class="column-4" style="padding-top: 24px;">
               <p>
                 <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
