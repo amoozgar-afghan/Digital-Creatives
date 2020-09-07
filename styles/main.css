@@ -55,6 +55,10 @@ body {
     margin-bottom: 0.5rem;
   }
 
+  .bg-white {
+      background-color: #fff;
+  }
+
   .btn {
     display: inline-block;
     font-weight: 400;
