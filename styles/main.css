@@ -208,6 +208,8 @@ li.active .my-nav-link::after {
 .customer-comments .column-4 {
     position: relative;
     top: 0;
+    display: block;
+    float: left;
     min-height: 616px;
 }
 
@@ -245,6 +247,7 @@ li.active .my-nav-link::after {
 .my-article-title-div {
     position: relative;
     top: -5px;
+    right: 30px;
     max-width: 75%;
     display: inline-block;
 }
@@ -370,7 +373,7 @@ li.active .my-nav-link::after {
 }
 
 .my-values img {
-    width: 10%;
+    width: 15%;
 }
 
 .my-values span {
@@ -380,8 +383,6 @@ li.active .my-nav-link::after {
     font-size: 18px;
 
 }
-
-
 
 .my-card-icon {
     width: 70px;
@@ -524,4 +525,135 @@ li.active .my-nav-link::after {
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+
+  .clear-both {
+      clear: both;
+  }
+
+  @media screen and (max-width: 992px){
+
+    .my-navbar-links {
+        margin: 10px 20px;
+    }
+
+    .my-header-img-col {
+          display: none;
+      }
+
+      .container-fluid {
+          padding: 0;
+      }
+
+      .my-header-article {
+          position: relative;
+          width: 100%;
+          top: 0;
+          background-color: #578FC7;
+      }
+
+      .my-header-article h1, .my-header-article p {
+          color: #fff;
+      }
+
+      .my-article-title-div {
+        position: relative;
+        right: 60px;
+      }
+
+      
+  }
+
+  @media screen and (max-width: 776px){
+
+    .container-fluid, .container {
+        width: 100%;
+    }
+    .customer-comments .column-sm-4 {
+        display: block;
+        max-width: 49%;
+        float: left;
+    }
+    .customer-comments .column-sm-4:last-child {
+        display: none;
+    }
+
+    .my-articles-col{
+        margin: 10px;
+    }
+
+    .my-article-title-div {
+        display: block;
+        max-width: 100%;
+        right: 0;
+        padding: 20px;
+        
+    }
+    .my-article-img-div {
+        display: block;
+        max-width: 100%;
+    }
+
+    .my-article-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .my-footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .my-footer .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .my-footer .column-3 {
+        max-width: 35%;
+        padding: 5px;
+    }
+
+    .my-footer .column-4 {
+        display: block;
+        max-width: 100%;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .my-service-head-container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .my-service-head-container h1 {
+        font-size: 40px;
+    }
+
+    .my-service-head-container p {
+        padding: 0 10px;
+    }
+
+    .my-values img {
+        width: 30%;
+        margin: 5px;
+    }
+
+    .my-services-container .column-4 {
+        max-width: 40%;
+    }
+
+    .my-contact-row {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0 10px;
+    }
+  }
+
+  @media screen and (max-width: 592px){
+    .my-services-container .column-4 {
+        display: block;
+        max-width: 100%;
+        margin-right: 0 !important;
+    } 
   }
